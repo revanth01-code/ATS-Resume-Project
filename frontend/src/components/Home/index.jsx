@@ -54,7 +54,6 @@ const Home = () => {
             >
               Get Started — It's Free
             </button>
-            <button className="btn-secondary">See Demo</button>
           </div>
 
           {/* Score card tease */}
