@@ -31,7 +31,7 @@ const Register = () => {
     setError("");
     setSuccess("");
 
-    const url = "http://localhost:5000/auth/register";
+    const url = `${import.meta.env.VITE_API_URL}/auth/register`;
     const userDetails = { name, email, password }
 
     const options = {

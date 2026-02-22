@@ -36,7 +36,7 @@ const YourResumes = () => {
  
       // STEP 1️⃣ Upload Resume
       const uploadResponse = await fetch(
-        "http://localhost:5000/resume/upload",
+        `${import.meta.env.VITE_API_URL}/resume/upload`,
         {
           method: "POST",
           headers: {
@@ -61,7 +61,7 @@ const YourResumes = () => {
       };
  
       const analyzeResponse = await fetch(
-        "http://localhost:5000/resume/analyze",
+        `${import.meta.env.VITE_API_URL}/resume/analyze`,
         {
           method: "POST",
           headers: {
