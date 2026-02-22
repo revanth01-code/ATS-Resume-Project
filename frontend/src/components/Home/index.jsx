@@ -204,7 +204,6 @@ const Home = () => {
             >
               Start for Free
             </button>
-            <button className="btn-secondary">Learn More</button>
           </div>
         </div>
       </section>
