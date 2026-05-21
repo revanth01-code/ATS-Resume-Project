@@ -6,7 +6,7 @@ export async function parseResume(fileBuffer) {
             throw new Error("Received empty buffer");
         }
 
-        // ⭐ Proper Buffer → Uint8Array conversion (CRITICAL)
+        //  Proper Buffer → Uint8Array conversion (CRITICAL)
         const uint8Array = new Uint8Array(
             fileBuffer.buffer,
             fileBuffer.byteOffset,
